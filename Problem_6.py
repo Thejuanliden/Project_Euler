@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+
 #The sum of the squares of the first ten natural numbers is, 385
 
 #The square of the sum of the first ten natural numbers is,     3025
@@ -41,3 +44,5 @@ print(f'sum_of_numbers: {sum_of_numbers}')
 print(f'sum_sq: {sum_sq}')
 print(f'sum_of_squares: {sum_of_squares}')
 print(f'difference: {diff}')
+
+print("--- %s seconds ---" % (time.time() - start_time))
